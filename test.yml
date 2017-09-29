@@ -4,4 +4,4 @@
   tasks:
     - debug: 
         msg: "Running in CITC"
-    when: citc
+      when: citc
