@@ -1,0 +1,7 @@
+---
+- hosts: servers
+  become: yes
+  tasks:
+    - debug: 
+        msg: "Running in CITC"
+    when: citc
